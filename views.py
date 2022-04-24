@@ -11,13 +11,5 @@ def index():
     return render_template('itunes.html', table=table, title=title)
 
 
-
-
-
-
-
-
-
-
 if  __name__ == '__main__':
     app.run(debug=True)
